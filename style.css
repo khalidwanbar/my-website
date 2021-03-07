@@ -1,0 +1,137 @@
+
+
+
+#main {
+	
+	margin-top:7px;
+}
+
+#nav{
+	background-color:darkslategrey;
+	color:white;
+}
+
+#nav>ul{
+	list-style:none;
+	padding-left:0;
+	font-size:20px;
+	
+
+}
+
+#nav>ul li{
+	display:inline-block;
+	padding:8px;
+	
+	
+	
+}
+	
+#nav>ul>li>a{
+	color:white;
+}
+
+
+#header{
+	text-align:center;
+	background-image:url("image/yes.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:150px;
+	color:white;
+	margin:0;
+	
+	
+	
+}
+#header>div{
+	
+	height:100px;
+	margin:0;
+}
+
+#header>div>h2{
+	padding-top:63px;
+
+}   
+
+h3{
+	font-size:30px;
+	
+}
+
+#content>div{
+	text-align:left;
+	margin:0px;
+	padding:10px;
+	
+}
+
+
+}
+
+#hi{
+	width:10px;
+	height:12%;
+}
+.contact-section{
+	padding:40px 0;
+	background-color: grey;
+	
+}
+.contact-section h1{
+	text-align:center;
+	color:black;
+
+}
+
+.border{
+	width:100px;
+	height:10px;
+	background: black;
+	margin:40px auto;
+
+}
+
+.contact-form{
+	max-width:600px;
+	margin:auto;
+	padding:0 10px;
+	overflow:hidden;
+	background:black;
+
+}
+
+.contact-form-text{
+	display:block;
+	width:500px;
+	box-sizing: border-box;
+	margin:50px 0;
+	border:0;
+	padding:16px;
+	outline:none;
+
+}
+
+.contact-form-text:focus{
+	box-shadow:0 0 10px 4px cadetblue;
+}
+ 
+textarea.contact-form-text{
+	resize:none;
+	height:120px;
+}
+
+.contact-form-btn{
+	float:right;
+	border:0;
+	background:white;
+	color:black;
+	padding:12px 50px;
+	margin: 10px;
+	border-radius:20px;
+}
+
+.contact-form-btn:hover{
+	background:cadetblue;
+}
